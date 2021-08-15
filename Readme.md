@@ -34,7 +34,11 @@ const Rebot = require('../index')({ webhook });
 6. 点击复制获取webhook地址，点击签名校验复制secret。点击完成
 
 ### 图片教程（**多图预警**）
-
+![Image text](https://raw.githubusercontent.com/ByteWebMonitor/byte-monitor-feishu-robot/main/img/1.png)
+![Image text](https://raw.githubusercontent.com/ByteWebMonitor/byte-monitor-feishu-robot/main/img/2.png)
+![Image text](https://raw.githubusercontent.com/ByteWebMonitor/byte-monitor-feishu-robot/main/img/3.png)
+![Image text](https://raw.githubusercontent.com/ByteWebMonitor/byte-monitor-feishu-robot/main/img/4.png)
+![Image text](https://raw.githubusercontent.com/ByteWebMonitor/byte-monitor-feishu-robot/main/img/5.png)
 
 ## 尾言
 
