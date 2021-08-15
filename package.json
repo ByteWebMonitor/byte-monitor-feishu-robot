@@ -1,27 +1,24 @@
 {
-  "name": "feishu-robot",
-  "version": "1.0.5",
-  "description": "feishu message robot for group chat",
+  "name": "byte-monitor-feishu-robot",
+  "version": "1.0.6",
+  "description": "feishu monitor robot",
   "main": "index.js",
   "scripts": {
     "test": "node test/test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/zhangky01/feishu-robot.git"
+    "url": "git+ssh://git@github.com/ByteWebMonitor/byte-monitor-feishu-robot.git"
   },
   "keywords": [
     "feishu",
     "robot",
-    "message",
-    "chat",
+    "alert",
+    "monitor",
     "group",
     "api"
   ],
-  "author": {
-    "name": "KaiYang Zhang",
-    "email": "iszhangky@163.com"
-  },
+  "author": "Ramsol <535848439@qq.com>",
   "files": [
     "LICENSE",
     "Readme.md",
@@ -30,11 +27,16 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zhangky01/feishu-robot/issues"
+    "url": "https://github.com/ByteWebMonitor/byte-monitor-feishu-robot/issues"
   },
-  "homepage": "https://github.com/zhangky01/feishu-robot#readme",
+  "homepage": "https://github.com/ByteWebMonitor/byte-monitor-feishu-robot/blob/main/Readme.md",
   "dependencies": {
-    "feishu-robot": "^1.0.5",
-    "simple-client": "1.1.5"
+    "byte-monitor-feishu-robot": "^1.0.5",
+    "feishu_clientbot": "^1.0.1",
+    "simple-client": "^1.2.5"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }

@@ -1,11 +1,11 @@
 ## 飞书群聊机器人
 ## 环境
-* node: 10.18.0
-* npm: 6.13.4
+* node: 10.18.0以上
+* npm: 6.13.4以上
 
 ## 安装
 ```bash
-$ npm install feishu-robot
+$ npm install byte_monitor-feishu_robot
 ```
 
 ## 快速开始
@@ -47,7 +47,6 @@ require('feishu-robot')(option);
 ![image](https://user-images.githubusercontent.com/38270459/111722043-0845cd00-889c-11eb-9f1e-6abce953b6ce.png)
 
 ## 尾言
-如果对您有帮助，请给个star。^_^
 
 ## License
 [MIT](LICENSE)
