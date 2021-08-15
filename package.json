@@ -1,6 +1,6 @@
 {
   "name": "byte-monitor-feishu-robot",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "feishu monitor robot",
   "main": "index.js",
   "scripts": {
@@ -31,9 +31,8 @@
   },
   "homepage": "https://github.com/ByteWebMonitor/byte-monitor-feishu-robot/blob/main/Readme.md",
   "dependencies": {
-    "byte-monitor-feishu-robot": "^1.0.5",
-    "feishu_clientbot": "^1.0.1",
-    "simple-client": "^1.2.5"
+    "byte-monitor-feishu-robot": "^1.0.7",
+    "feishu_clientbot": "^1.0.1"
   },
   "directories": {
     "lib": "lib",
