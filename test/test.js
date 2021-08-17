@@ -1,5 +1,9 @@
-const webhook = "https://open.feishu.cn/open-apis/bot/v2/hook/33fe3f57-ca6c-410b-8032-b2476b8742f8"//机器人webhook码
-const Rebot = require('../index')({ webhook });
+const Robot = require('byte-monitor-feishu-robot/index');
+const webhook = "https://open.feishu.cn/open-apis/bot/v2/hook/fdcfa703-3bdc-4247-a6f5-bfb9476d5cdf"//机器人webhook码
+// console.log(Robot())
+const Rebot = Robot({ webhook });
+// const Rebot=Robot({ webhook })
+console.log(Rebot)
 
 
 //message结构体

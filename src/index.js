@@ -1,6 +1,6 @@
-const Robot = require('./lib/robot');
-const utils = require('./lib/utils');
-module.exports = function (option) {
+const Robot = require('../lib/robot');
+const utils = require('../lib/utils');
+module.exports =function (option) {
 
     checkInput(option);
 
