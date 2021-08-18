@@ -1,8 +1,8 @@
 {
   "name": "byte-monitor-feishu-robot",
-  "version": "1.0.11",
+  "version": "1.0.15",
   "description": "feishu monitor robot",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "node test/test.js",
     "build:cjs": "babel source --out-dir src",
@@ -38,7 +38,7 @@
   "homepage": "https://github.com/ByteWebMonitor/byte-monitor-feishu-robot/blob/main/Readme.md",
   "dependencies": {
     "axios": "^0.21.1",
-    "byte-monitor-feishu-robot": "^1.0.11",
+    "byte-monitor-feishu-robot": "^1.0.15",
     "feishu_clientbot": "^1.0.1"
   },
   "directories": {
