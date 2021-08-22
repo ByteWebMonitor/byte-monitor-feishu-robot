@@ -15,7 +15,7 @@ const webhook = "你的机器人码"//机器人webhook码
 
 ## 配置参数
 ```js
-const Rebot = require('../index')({ webhook });
+const Rebot = require('byte-monitor-feishu-robot/index')({ webhook });
 ```
 * [option.webhook](#webhook参数获取方式) (必填): webhook地址，类型是URL。例如：webhook: https://open.feishu.cn/xxxxxx
 * [option.secret](#webhook参数获取方式) (选填): 如果飞书安全设置为签名校验则需要填写此项。类型是string，例如： secret: '123456'
