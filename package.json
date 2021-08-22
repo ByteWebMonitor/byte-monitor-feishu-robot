@@ -1,0 +1,40 @@
+{
+  "name": "byte-monitor-feishu-robot1",
+  "version": "1.0.18",
+  "description": "feishu monitor robot",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ByteWebMonitor/byte-monitor-feishu-robot.git"
+  },
+  "keywords": [
+    "feishu",
+    "robot",
+    "alert",
+    "monitor",
+    "group",
+    "api"
+  ],
+  "author": "Ramsol <535848439@qq.com>",
+  "files": [
+    "LICENSE",
+    "Readme.md",
+    "index.js",
+    "lib/"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ByteWebMonitor/byte-monitor-feishu-robot/issues"
+  },
+  "homepage": "https://github.com/ByteWebMonitor/byte-monitor-feishu-robot/blob/main/Readme.md",
+  "dependencies": {
+    "byte-monitor-feishu-robot": "^1.0.18"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  }
+}
